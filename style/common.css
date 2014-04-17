@@ -1,0 +1,23 @@
+.boards .selected{background:#2A79A6;}
+
+/* list标题 */
+.selected .list-title{background:#d01b22;}
+.list-title{font-weight:800;}
+
+/* card 标题 */
+.list .selected{background:green;}
+
+/* filter */
+.filter a{color:#000;}
+.filter a.selected{color:#2A79A6;}
+
+.container{width:1000px; margin:10px auto;}
+.left{float:left; width:50%;}
+.right{float:right; width:45%;}
+
+.link{float:right;}
+.board, li{cursor:pointer;}
+.focus{background:green;}
+
+hr{margin-top:5px;}
+li{line-height:22px;}

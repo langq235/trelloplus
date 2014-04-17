@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trello</title>
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/common.css">
+</head>
+<body>
+<div class="container">
+	<h1>xx的Trello+</h1>
+	<div class="left">
+		<h3>Boards</h3>
+		<hr />
+		<div class="boards" id="boards">
+		</div>
+		<hr />
+		<div class="lists" id="lists">
+		</div>
+	</div>
+	<div class="right">
+		<div class="filter">
+			<div><a href="#" class="selected" action="setDate" data="-7">最近7天</a> <a href="#" action="setDate" data="-30">最近30天</a> <a href="#" action="setDate" data="-90">最近90天</a></div>
+			<!-- <div><a href="#" action="f-done">已完成</a> <a href="#" action="f-todo">未完成</a></div>
+			<div><a href="#" action="f-list">list</a> <a href="#" action="f-card">card</a> <a href="#" action="f-checklist">checklist</a></div> -->
+		</div>
+		<hr />
+		<div class="result" id="result">
+			
+		</div>
+	</div>
+</div>
+<script src="jquery.js"></script>
+<script src="https://api.trello.com/1/client.js?key=25bdab65c2271698e6d9258fbdfdb459"></script>
+<!-- <script src="https://api.trello.com/1/client.js?key=ded2bfd4ae12d2d7cb0338ed712e8682"></script> -->
+<script type="text/javascript" src="js/main.js"></script>
+</head>
+</body>
+</html>
